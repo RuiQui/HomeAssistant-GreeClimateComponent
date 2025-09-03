@@ -149,50 +149,64 @@
     },
     "number": {
       "target_temp_step": {
-        "name": "温度步进"
+        "name": "温度步进",
+        "description": "设置调整目标温度时的步进值。"
       }
     },
     "select": {
       "external_temperature_sensor": {
-        "name": "外部温度传感器"
+        "name": "外部温度传感器",
+        "description": "选择一个外部温度传感器实体来替代空调内置传感器。选择“无”则使用内置传感器。"
       }
     },
     "switch": {
       "xfan": {
-        "name": "防霉风"
+        "name": "防霉风",
+        "description": "开启或关闭防霉风模式，在关机时进行额外干燥。"
       },
       "lights": {
-        "name": "灯光"
+        "name": "灯光",
+        "description": "控制空调面板的显示灯。"
       },
       "health": {
-        "name": "健康模式"
+        "name": "健康模式",
+        "description": "开启或关闭健康模式，实现空气离子化和净化。"
       },
       "powersave": {
-        "name": "节能模式"
+        "name": "节能模式",
+        "description": "开启或关闭节能模式以提高能效。仅在制冷模式下可用。"
       },
       "eightdegheat": {
-        "name": "8°C 制热"
+        "name": "8°C 制热",
+        "description": "开启或关闭 8°C 防冻加热模式，用于防霜保护。仅在制热模式下可用。"
       },
       "sleep": {
-        "name": "睡眠模式"
+        "name": "睡眠模式",
+        "description": "开启或关闭睡眠模式，适合夜间舒适运行。仅在制冷或制热模式下可用。"
       },
       "air": {
-        "name": "清新空气"
+        "name": "新风模式",
+        "description": "开启或关闭清新空气循环模式。"
       },
       "auto_xfan": {
-        "name": "自动防霉风"
+        "name": "自动防霉风",
+        "description": "根据空调运行模式自动控制防霉风功能。在制冷和除湿模式下自动开启。"
       },
       "auto_light": {
-        "name": "自动灯光"
+        "name": "自动灯光",
+        "description": "根据空调运行状态自动控制灯光，随空调开关自动亮灭。"
       },
       "anti_direct_blow": {
-        "name": "防直吹"
+        "name": "防直吹",
+        "description": "通过调整导风板位置，防止冷/热风直吹人体。"
       },
       "light_sensor": {
-        "name": "光照传感器"
+        "name": "光照传感器",
+        "description": "开启或关闭光感自动调节亮度，需要开启灯光。"
       },
       "beeper": {
-        "name": "蜂鸣器"
+        "name": "蜂鸣器",
+        "description": "控制空调蜂鸣提示音。开启后，空调在按键操作和状态变化时会发出提示音。"
       }
     }
   }
